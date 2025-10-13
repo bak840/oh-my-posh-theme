@@ -7,18 +7,21 @@
       "segments": [
         {
           "type": "session",
-          "style": "plain",
-          "foreground": "#ffffff",
+          "style": "powerline",
+          "powerline_symbol": "\ue0b0",
+          "background": "#ffffff",
+          "foreground": "#100e23",
           "template": " {{ .UserName }}@{{ .HostName }} "
         },
         {
           "type": "path",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          "foreground": "#000000",
-          "background": "#ffffff",
+          "background": "#91ddff",
+          "foreground": "#100e23",
           "properties": {
-            "style": "powerlevel"
+            "style": "agnoster_short",
+            "max_depth": 3
           }
         }
       ]
