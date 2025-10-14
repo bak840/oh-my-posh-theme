@@ -23,6 +23,17 @@
             "style": "agnoster_short",
             "max_depth": 3
           }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "\ue0b0",
+          "background": "#95ffa4",
+          "foreground": "#193549",
+          "properties": {
+            "fetch_status": true,
+            "branch_max_length": 36
+          }
         }
       ]
     }
