@@ -34,6 +34,14 @@
             "fetch_status": true,
             "branch_max_length": 36
           }
+        },
+        {
+          "type": "status",
+          "style": "powerline",
+          "powerline_symbol": "\ue0b0",
+          "background": "#ff8080",
+          "foreground": "#ffffff",
+          "template": " \udb80\uded4 "
         }
       ]
     }
