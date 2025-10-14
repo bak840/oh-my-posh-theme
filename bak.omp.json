@@ -18,7 +18,7 @@
           "powerline_symbol": "\ue0b0",
           "background": "#ffffff",
           "foreground": "#100e23",
-          "template": "{{ if .SSHSession }}\ueba9 {{ end }}{{ if eq .UserName .Env.POSH_USERNAME }} \uf007 {{else}}{{.UserName}}{{end}}@{{ if eq .HostName .Env.POSH_HOSTNAME }} \uea7a {{else}}{{.HostName}}{{end}}"
+          "template": "{{ if .SSHSession }}\ueba9 {{ end }}"
         },
         {
           "type": "path",
