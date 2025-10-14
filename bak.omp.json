@@ -45,9 +45,6 @@
             "fetch_status": true,
             "branch_max_length": 36,
             "mapped_branches": {
-              "master": " \udb81\udca1 master ",
-              "dev": " \udb80\udde7 dev ",
-              "devel": " \udb80\udde7 devel ",
               "feat/*": " \uf135 ",
               "feature/*": " \uf135 ",
               "bug/*": " \uf188 ",
