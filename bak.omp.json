@@ -17,8 +17,7 @@
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
           "background": "#ffffff",
-          "foreground": "#100e23",
-          "template": " {{ .UserName }}@{{ .HostName }} "
+          "foreground": "#100e23"
         },
         {
           "type": "path",
@@ -28,7 +27,11 @@
           "foreground": "#100e23",
           "properties": {
             "style": "agnoster_short",
-            "max_depth": 3
+            "max_depth": 3,
+            "mapped_locations": {
+              "D:\\Workspace": "\udb80\ude0f ",
+              "D:\\Packages": "\ueb29 "
+            }
           }
         },
         {
@@ -39,7 +42,16 @@
           "foreground": "#193549",
           "properties": {
             "fetch_status": true,
-            "branch_max_length": 36
+            "branch_max_length": 36,
+            "mapped_branches": {
+              "master": " \udb81\udca1 master ",
+              "dev": " \udb80\udde7 dev ",
+              "devel": " \udb80\udde7 devel ",
+              "feat/*": " \uf135 ",
+              "feature/*": " \uf135 ",
+              "bug/*": " \uf188 ",
+              "bugfix/*": " \uf188 "
+            }
           }
         },
         {
