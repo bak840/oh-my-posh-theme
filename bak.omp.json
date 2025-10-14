@@ -43,7 +43,7 @@
           "foreground": "#193549",
           "properties": {
             "fetch_status": true,
-            "branch_max_length": 36,
+            "branch_max_length": 24,
             "mapped_branches": {
               "feat/*": " \uf135 ",
               "feature/*": " \uf135 ",
