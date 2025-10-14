@@ -30,6 +30,8 @@
             "style": "agnoster_short",
             "max_depth": 3,
             "mapped_locations": {
+              "H:\\Workspace": "\udb80\ude0f ",
+              "H:\\Packages": "\ueb29 ",
               "D:\\Workspace": "\udb80\ude0f ",
               "D:\\Packages": "\ueb29 "
             }
